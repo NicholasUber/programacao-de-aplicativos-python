@@ -31,7 +31,7 @@ print(nomes)
 nomes.insert(1, "Mariana")
 print(nomes)
 
-#Removendo Elementos
+#5.Removendo Elementos
 #remove() remove o elemento pelo seu valor
 nomes.remove("Lucas")
 print(nomes)
@@ -39,3 +39,70 @@ print(nomes)
 #pop() remove um elemento pelo indice
 nomes.pop(0)
 print(nomes)
+
+#6. Tamanho da Lista
+
+#len() Informa a quantidade de elementos
+print(len(nomes))
+
+# 7. Percorrendo uma Lista
+
+for nome in nomes:
+    print(nome)
+
+#8. Verificando se um elemento existe
+
+if "joão" in nomes:
+    print("João está na lista")
+else:
+    print("João não está na lista")
+
+#9. Lista com Diferentes tipos de dados
+
+dados= ["João", 18,1.75, True]
+print(dados)
+
+#10. Lista de Numeros
+
+notas=[7.5,8.0,6.5,9.0]
+soma=0
+for nota in notas:
+    soma+=nota
+
+    media=soma/len(notas)
+    print(f"Média: {media:.1f}")
+
+# 11. Tuplas
+#Tuplas são semelhantes ás listas
+#A principal diferença é que as tuplas não podem ser alteradas dps de criadas
+
+coordenadas=(10,20)
+print(coordenadas)
+
+# Acessando elementos.
+print(coordenadas[0])
+print(coordenadas[1])
+
+#12. Dicionarios
+#Dicionarios armazenam informações no formato:
+#chave: valor
+
+aluno = {
+    "nome": "Carlos",
+    "idade": 17,
+    "nota": 8.5
+}
+print(aluno)
+
+#13. Acessando valores do dicionario
+
+print(aluno["nome"])
+print(aluno["idade"])
+print(aluno["nota"])
+
+ # 14. Alterando os valores
+
+aluno["nota"] = 9.0
+print(aluno)
+
+
