@@ -57,8 +57,8 @@ class Cachorro:
         print("Idade:", self.idade, "\n")
 
 
-cachorro1 = Cachorro("Bidu", "Bordercollie", 49)
-cachorro2 = Cachorro("Ibiri", "Ibirama", 2)
+cachorro1 = Cachorro("Jorge", "Yorkshire", 15)
+cachorro2 = Cachorro("Lucas", "Shitzu", 6)
 
 cachorro1.latir()
 cachorro1.mostrarinfo()
